@@ -123,6 +123,7 @@ class _StartingRightDetailsPageState extends State<StartingRightDetailsPage> {
                             fontSize: 16,
                             color: Colors.black,
                           ),
+                          //reading image from laravel
                           Image.network(
                             "http://192.168.46.251/uploads/" +
                                 this.startingrightInfo[0].img.toString(),
@@ -133,7 +134,7 @@ class _StartingRightDetailsPageState extends State<StartingRightDetailsPage> {
                     ),
                   ),
                   
-                  Divider(color: Color(0xFF7b8ea3)),
+                  Divider(color: Color(0xFF7b8ea3)), 
                 ],
               ),
             )),
