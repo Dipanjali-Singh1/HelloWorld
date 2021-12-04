@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Quiz extends Model
 {
     use DefaultDatetimeFormat;
-    //table name
+    //this is the table name
     protected $table = 'quizzes';
 
     public function getAllQuiz(){
