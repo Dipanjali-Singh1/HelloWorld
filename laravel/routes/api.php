@@ -52,7 +52,7 @@ Route::get('/allstartingright/', 'App\Http\Controllers\StartingRightController@a
 Route::get('/allfaq/', 'App\Http\Controllers\FAQController@allFAQ');
 Route::get('/allsurvey/', 'App\Http\Controllers\SurveyController@allSurvey');
 
-Route::post('/feedback', 'App\Http\Controllers\TestimonialController@feedback');
+Route::post('/feedback', 'App\Http\Controllers\TestimonialController@feedback');//add feedback
 Route::post('/feedback', 'App\Http\Controllers\SurveyController@feedback');
 //Route::post('/feedback/', 'App\Http\Controllers\TestimonialController@feedback');
 
